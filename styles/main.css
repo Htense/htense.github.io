@@ -1,0 +1,34 @@
+.Thistle
+{color: #E0BBE4}
+.Lavender-Purple
+{color: #957DAD}
+.Pastel-Violet
+{color: #D291BC}	
+.Cotton-Candy
+{color: #FEC8D8;}
+.Lumber
+{color: #FFDFD3}
+
+
+
+
+
+h1 {
+    align-content: center;
+    color: #E0BBE4;
+	font-weight: normal;
+	font-family: 'helvetica', sans-serif;   
+    font-size: 55px;
+	line-height: 55px;
+    text-shadow: 0 2px #FFDFD3, 0 2.5px #FEC8D8;
+    
+}
+    
+    body {
+        color: #E0BBE4;
+        font-weight: normal;
+        font-family: 'helvetica', sans-serif;   
+        font-size: 20px;
+        line-height: 55px;
+        background: #faf2fb
+        }
