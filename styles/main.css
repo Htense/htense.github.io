@@ -8,23 +8,27 @@ the biggest part of the webpage */
     background-color: #efe4f1;
     padding: 20px;
     margin: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* , This is the css for the tags */
-body {
-    font-weight: normal;
-    background-color: #d5c4d8;
-        }
-/* , */
+
  h1 {
      
     text-align: center;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding: 10px; 
     color: #bb97be;
     font-weight: normal;  
-    font-size: 55px;  
+    font-size: 45px;  
     text-shadow: 0 2px #FFDFD3, 0 2.5px #FEC8D8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body {
+    background-color: #d5c4d8;
 }
 h2 {
-     
     text-align: center;
     color: #bb97be;
     border: dotted #FFDFD3;
@@ -34,33 +38,43 @@ h2 {
 }
 button {
     font-family:'Roboto',sans-serif;
-    background-color: #;
-    border-radius:2px;
-    border: 1px solid #f4f0f5
+    background-color: #f4f0f5;
+    border-radius: 2px;
+    border: 1px;
     text-align:center;
 }
+
 /* , this is the css for the classes */
 
 .bigbox {
     display: flex;
     background-color: #f4f0f5;
-    padding: 10px
+    padding: 5px
 }
 .navigation {
-    text-align: left;
+    text-align: center;
+    border-style: double;
+    border-color: #d5c4d8;
     float: left;
-    margin: 20px;
-    padding: 20px;
-    width: auto;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
 }
 .words {
     float: right;
-    margin: 20px;
+    margin: 10px;
+    padding: 10px;
     font-weight: normal;
-    font-size: 12px; 
+    font-size: 15px; 
+    width: 700px;
 }
 .footer {
     font-weight: normal;
     font-size: 12px;   
     text-align: center;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
 }
