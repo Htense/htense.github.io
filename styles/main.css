@@ -81,7 +81,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center
+    align-items: center;
 
    
 } 
@@ -94,6 +94,7 @@ img {
 /* for the image size */  
     height: auto;
     width: 40%;
+    /* for the flex part */ 
     align-self: auto
     
 }
