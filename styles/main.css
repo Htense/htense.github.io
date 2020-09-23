@@ -1,6 +1,5 @@
 
-/* , This is the id 'all'/
-the biggest part of the webpage */
+/* ID */
 #all {
     
     font-family: 'helvetica', sans-serif;   
@@ -8,17 +7,18 @@ the biggest part of the webpage */
     background-color: #efe4f1;
     padding: 20px;
     margin: 50px;
+    border-radius: 3px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-/*This is the css for the tags*/
+/* TAGS */
 
  h1 {
-     
     text-align: center;
     width: auto;
     height: auto;
     margin: 10px;
     padding: 10px; 
+    border-radius: 3px;
     color: #bb97be;
     font-weight: normal;  
     font-size: 45px;  
@@ -27,6 +27,8 @@ the biggest part of the webpage */
 }
 body {
     background-color: #d5c4d8;
+    border-radius: 3px;
+    
 }
 h2 {
     text-align: center;
@@ -41,16 +43,20 @@ button {
     background-color: #f4f0f5;
     border-radius: 2px;
     border: 1px;
-    text-align:center;
+    text-align: center;
 }
 
   
-/* , this is the css for the classes */
+/* Classes */
 
 .bigbox {
     display: flex;
     background-color: #f4f0f5;
     padding: 5px
+    margin: 10px;
+    padding: 10px;
+    border-radius: 3px;
+
 }
 .navigation {
     text-align: center;
@@ -59,7 +65,7 @@ button {
     float: left;
     margin: 10px;
     padding: 10px;
-    width: 150px;
+    width: 120px;
 }
 .words {
     float: right;
@@ -67,7 +73,29 @@ button {
     padding: 10px;
     font-weight: normal;
     font-size: 15px; 
-    width: 700px;
+    width: 800px ;
+    
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center
+
+   
+} 
+img {
+
+/* for around the image */ 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+    margin: 10px;
+    border-radius: 3px;
+/* for the image size */  
+    height: auto;
+    width: 40%;
+    align-self: auto
+    
 }
 .footer {
     font-weight: normal;
@@ -79,20 +107,3 @@ button {
     padding: 10px;
     border: 10px;
 }
-
-.polaroid {
-    display: flex;
-    align-items: center;
-    
-    }
-  
-img {
-
-/* for around the image */
-    border-radius: 2px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 5mm;
-    
-/* for the image size */  
-    width: 50%;
-
