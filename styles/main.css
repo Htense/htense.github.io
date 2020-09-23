@@ -19,15 +19,16 @@
     margin: 10px;
     padding: 10px; 
     border-radius: 3px;
-    color: #bb97be;
+    color: #f4f0f5;
     font-weight: normal;  
     font-size: 45px;  
-    text-shadow: 0 2px #FFDFD3, 0 2.5px #FEC8D8;
+    text-shadow: 2px 3px 3px #c5b8b4, 0 0 2px black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 body {
     background-image: url("../images/sprint-1a-tech/Background2000px.jpeg");
-    height: 80%;
+    background-size:cover;
+    height: 800px;
     background-color: #d5c4d8;
     border-radius: 3px;
     
