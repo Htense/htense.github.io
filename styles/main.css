@@ -10,7 +10,7 @@ the biggest part of the webpage */
     margin: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-/* , This is the css for the tags */
+/*This is the css for the tags*/
 
  h1 {
      
@@ -44,6 +44,7 @@ button {
     text-align:center;
 }
 
+  
 /* , this is the css for the classes */
 
 .bigbox {
@@ -58,7 +59,7 @@ button {
     float: left;
     margin: 10px;
     padding: 10px;
-    width: 200px;
+    width: 150px;
 }
 .words {
     float: right;
@@ -78,3 +79,20 @@ button {
     padding: 10px;
     border: 10px;
 }
+
+.polaroid {
+    display: flex;
+    align-items: center;
+    
+    }
+  
+img {
+
+/* for around the image */
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 5mm;
+    
+/* for the image size */  
+    width: 50%;
+
