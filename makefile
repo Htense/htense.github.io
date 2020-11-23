@@ -4,7 +4,6 @@ git:
 	git push -u origin master 
 
 add-com:
-	add-commit:
 	git add .
 	git commit -m "$m"
 	
