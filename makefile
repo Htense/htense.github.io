@@ -10,7 +10,7 @@ add-com:
 add-com-push:
 	git add .
 	git commit -m "$m"
-	git push -u origin 
+	git push origin -u @
 	
 	
 
@@ -18,4 +18,3 @@ add-com-push:
 
 
 
-	
